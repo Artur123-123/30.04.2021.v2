@@ -13,18 +13,18 @@
     </div>
     <div id="makułowicz"></div>
     <div id="margin">
-        <input type="text" placeholder="Imię">
-        <input type="text" placeholder="Nazwisko">
-        <input type="text" placeholder="Adres">
-        <input type="text" placeholder="E-mail">
-        <input type="text" placeholder="Telefon">
-        <input type="text" placeholder="Wiadomość">
-        <button>Zamów</button>
-        <select name="pizze" id="pizza" class="size" onchange="menu(value)">
+        <input type="text" placeholder="Imię" id="imie">
+        <input type="text" placeholder="Nazwisko" id="nazwisko">
+        <input type="text" placeholder="E-mail" id="email" onchange="email(value)">
+        <input type="text" placeholder="Telefon" id="fon" onchange="fon(value)">
+        <input type="text" placeholder="Wiadomość" id="mess" onchange="mess(value)">
+        <button onclick="imie(value), nazwisko(value)">Zamów</button>
+        <select name="pizze" id="pizza">
             <option>Hawajska</option>
             <option>Neapolitana</option>
             <option>Bianca</option>
             <option>Ziti pizza</option>
     </div>
+    <script src="main.js"></script>
 </body>
 </html>
