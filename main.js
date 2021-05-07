@@ -56,4 +56,3 @@ function mess() {
 function select() {
     const select = document.getElementById('pizza')
 }
-
